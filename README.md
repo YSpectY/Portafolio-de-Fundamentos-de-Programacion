@@ -1,6 +1,6 @@
-# Qué es Python?
-
-# Qué es una variable?
+# ¿Qué es Python?
+Python es un lenguaje de programación interpretado fácil de aprender, esta dinámica de este lenguaje de programación hace de python un lenguaje muy atractivo para las personas que quieran aprender a programar por primera vez.
+# ¿Qué es una variable?
 
 ## Nombrando una variable
 
