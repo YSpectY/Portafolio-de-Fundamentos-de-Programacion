@@ -149,7 +149,7 @@ else:
     print ('el numero es =', num)
 ```
 ## Ciclo For
-For es un bucle que repite el codigo que tiene por las veces que sea especificado.
+For es un bucle que repite el código que tiene por las veces que sea especificado.
 ```python
 n = 7
 suma = 0
@@ -162,7 +162,7 @@ promedio = suma/n
 print('Promedio:', promedio)
 ```
 ## Ciclo While
-While tambien es un bucle pero cuya activacion es una condicion y sera ejecutado hasta que ya no compla con la condicion o tope con un break.
+While también es un bucle, pero cuya activación es una condición y será ejecutado hasta que ya no cumpla con la condición o tope con un break.
 ```python
 num = 11
 
@@ -172,7 +172,7 @@ while not(num >= 10 and num <20 and num%2 == 0):
 #Al introducir numeros como 1,2,3,4,5,11,13,,15,21,22,23,90 se va a ejecutar el bucle hasta que se ingrese un valor entre 10 y 20 que sea par como 12.
 ```
 ## Break
-La palabra clave break se utiliza para terminar ciclos que estan sosnteneiendo a esta palabra dento de su codigo dado.
+La palabra clave break se utiliza para terminar ciclos que están sosteniendo a esta palabra dentro de su código dado.
 ```python
 j = 0
 
@@ -183,7 +183,7 @@ for i in range (10):
         break
 ```
 ## Continue
-Continue es otra palabra clave para los bucles pero la funcion de etsa es de omitir las siguientespartes que siguen del codigo y continuar con el bucle hasta que termine.
+Continue es otra palabra clave para bucles, pero la función de esta es de omitir las siguientes partes que siguen del código y continuar con el bucle hasta que termine.
 ```python
 contador=0
 for i in range (10):
