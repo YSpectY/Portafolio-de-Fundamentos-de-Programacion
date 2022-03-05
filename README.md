@@ -72,16 +72,15 @@ resultado = num1 % num2
 print(resultado)
 ```
 # Tipos de datos en Python
-Los tipos de datos que se pueden representar en python son:
+Los tipos de datos que se pueden representar en Python son:
 
-Numeros enteros
+Números enteros
 
-Numeros de punto flotante
+Números de punto flotante
 
 Texto (cadenas de caracteres)
 
 Booleanos (verdadero y falso)
-
 ## Integer
 Interger son todos los numeros enteros y tiene como función int.
 ```python
@@ -91,25 +90,49 @@ print(a * b)
 #El int nos sirve en este caso como un filtro para que el ingreso del usuario (input) tenga que ser un numero entero.
 ```
 ## Float
-Float por otro lado son los numero 
+Float por otro lado son números decimales y su función es float.
 ```python
 a = 7
 b = float(input("ingrese el valor a multiplicar: "))
 print(a * b)
 ```
 ## String
-Y string son las lineas de texto y tambien tiene su funcion str que recoje texto.
+Y string son las líneas de texto y también tiene su función str que recoge texto.
 ```python
 mascotas = "perros y gatos"
 print(mascotas)
+```
 ## Casting en Python
+El casting es la conversión de un dato a otro tipo de dato.
+```python
+int a str: str(12)
 
+str a int: int("12")
+
+float a int: int(12.5)
+```
 ## List
-
+Las listas son una forma de almacenar múltiples valores en una sola variable y son actualizables con lo cual podemos añadir más valores a la lista.
+```python
+lista = ["manzana", "naranja", "pera", "kiwi"]
+print(lista)
+```
 ## Tuple
-
+Una tupla al igual que las listas recogen múltiples valores en una sola variable con la diferencia que las tuplas no son actualizables, es decir, que no se le pueden agregar más valores.
+```python
+tupla = ("manzana", "naranja", "pera")
+print(tupla)
+```
 ## Dictionary
-
+Los diccionarios recogen multiples valores en pares en una sola variable y se pueden agregar mas valores a estos depues.
+```python
+diccionario = {
+  "Rojo": "manzana",
+  "Anaranjado": "naranja",
+  "Verde": "pera"
+}
+print(diccionario)
+```
 # Tomando decisiones
 
 ## Sentencia if
