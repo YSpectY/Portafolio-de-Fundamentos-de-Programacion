@@ -124,7 +124,7 @@ tupla = ("manzana", "naranja", "pera")
 print(tupla)
 ```
 ## Dictionary
-Los diccionarios recogen multiples valores en pares en una sola variable y se pueden agregar mas valores a estos depues.
+Los diccionarios recogen múltiples valores en pares en una sola variable y se pueden agregar mas valores a estos después.
 ```python
 diccionario = {
   "Rojo": "manzana",
@@ -134,13 +134,63 @@ diccionario = {
 print(diccionario)
 ```
 # Tomando decisiones
-
+Aqui encontraremos funciones condicionales y de ciclos con sus palabras clave.
 ## Sentencia if
+If es una función condicional que como su nombre dice las líneas de código se ejecutaran si cumple con la condición dada.
+Else se utiliza con if y elif para dar un resultado final si las condiciones anteriores dadas no se cumplen y elif es por así decir una condición más que podemos agregarle a la lista de condiciones.
+```python
+num =int(input('Ingrese un numero entero:'))
 
+if num > 0:
+    print(num, 'es positivo')
+elif num < 0:
+    print(num,'es negativo')
+else:
+    print ('el numero es =', num)
+```
 ## Ciclo For
+For es un bucle que repite el codigo que tiene por las veces que sea especificado.
+```python
+n = 7
+suma = 0
+for i in range(n):
+    nota = float(input('Ingrese nota ' + str(i+1) + ':'))
+    suma = suma + nota
 
+promedio = suma/n
+
+print('Promedio:', promedio)
+```
 ## Ciclo While
+While tambien es un bucle pero cuya activacion es una condicion y sera ejecutado hasta que ya no compla con la condicion o tope con un break.
+```python
+num = 11
 
+while not(num >= 10 and num <20 and num%2 == 0):
+    num= int(input('num ingreso: '))
+#En este codigo la condicion para que se active while deben ser numero que no sean mayor o igual a 10 y menor o igual a 20 y numeros pares.
+#Al introducir numeros como 1,2,3,4,5,11,13,,15,21,22,23,90 se va a ejecutar el bucle hasta que se ingrese un valor entre 10 y 20 que sea par como 12.
+```
 ## Break
+La palabra clave break se utiliza para terminar ciclos que estan sosnteneiendo a esta palabra dento de su codigo dado.
+```python
+j = 0
 
+for i in range (10):
+    j += 2
+    print('i:', i, 'j:', j)
+    if j == 10:
+        break
+```
 ## Continue
+Continue es otra palabra clave para los bucles pero la funcion de etsa es de omitir las siguientespartes que siguen del codigo y continuar con el bucle hasta que termine.
+```python
+contador=0
+for i in range (10):
+    for j in range (10):
+        contador +=1
+        print ("i:",i,"j:",j)
+        if contador == 50:
+            continue
+print ("contador:",contador)
+```
