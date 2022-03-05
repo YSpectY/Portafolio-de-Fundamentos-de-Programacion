@@ -36,7 +36,7 @@ Para la suma usamos el simbolo + :
 num1 = 3
 num2 = 7
 resultado = num1 + num2
-#print es una funcion en Python que permite mostrar el contenido dentro de los () en el terminal.
+#Print es una funcion en Python que permite mostrar el contenido dentro de los () en el terminal.
 print(resultado)
 ```
 ### Resta
@@ -72,13 +72,36 @@ resultado = num1 % num2
 print(resultado)
 ```
 # Tipos de datos en Python
+Los tipos de datos que se pueden representar en python son:
+
+Numeros enteros
+
+Numeros de punto flotante
+
+Texto (cadenas de caracteres)
+
+Booleanos (verdadero y falso)
 
 ## Integer
-
+Interger son todos los numeros enteros y tiene como función int.
+```python
+a = 7
+b = int(input("Ingrese un numero entero: "))
+print(a * b)
+#El int nos sirve en este caso como un filtro para que el ingreso del usuario (input) tenga que ser un numero entero.
+```
 ## Float
-
+Float por otro lado son los numero 
+```python
+a = 7
+b = float(input("ingrese el valor a multiplicar: "))
+print(a * b)
+```
 ## String
-
+Y string son las lineas de texto y tambien tiene su funcion str que recoje texto.
+```python
+mascotas = "perros y gatos"
+print(mascotas)
 ## Casting en Python
 
 ## List
