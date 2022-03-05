@@ -10,7 +10,7 @@ Para colocar un valor a una variable utilizamos =, es importante mencionar que l
 ```python
 x = 1
 ```
-En Python existen diferente formas para ordenar variables como:
+En Python existen diferente formas para asignar variables como:
 Asignación en la misma línea:
 ```python
 x = 3; y = 7; z = 10
@@ -29,17 +29,48 @@ base = 10; altura = 20
 base,altura = altura,base
 ```
 ## Operadores básicos
-
+En Python podemos usar símbolos para realizar operaciones básicas como la suma (+) y la resta(-).
 ### Suma
-
+Para la suma usamos el simbolo + :
+```python
+num1 = 3
+num2 = 7
+resultado = num1 + num2
+#print es una funcion en Python que permite mostrar el contenido dentro de los () en el terminal.
+print(resultado)
+```
 ### Resta
-
+La resta se representa con - :
+```python
+num1 = 10
+num2 = 7
+resultado = num1 - num2
+print(resultado)
+```
 ### Multiplicación
-
+La multiplicación se representa con un solo * :
+```python
+num1 = 5
+num2 = 2
+resultado = num1 * num2
+print(resultado)
+```
 ### División
-
+La división se la representa con un solo / :
+```python
+num1 = 8
+num2 = 2
+resultado = num1 / num2
+print(resultado)
+```
 ### Módulo
-
+El módulo es la representación del residuo de una división y se lo representa con % :
+```python
+num1 = 8
+num2 = 2
+resultado = num1 % num2
+print(resultado)
+```
 # Tipos de datos en Python
 
 ## Integer
